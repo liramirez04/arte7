@@ -27,10 +27,8 @@ export function Crear() {
       biography,
     };
 
-    // 1. Guarda el nuevo actor en el contexto global
     addActor(newActor);
 
-    // 2. Redirige automáticamente a la lista de actores
     router.push('/actores');
   };
 

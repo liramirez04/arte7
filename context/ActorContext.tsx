@@ -8,8 +8,8 @@ interface ActorContextType {
   loading: boolean;
   error: string | null;
   addActor: (actor: Actor) => void;
-  updateActor: (updatedActor: Actor) => void; // Paso 6
-  deleteActor: (id: number | string) => void; // Paso 7
+  updateActor: (updatedActor: Actor) => void;
+  deleteActor: (id: number | string) => void; 
 }
 
 const ActorContext = createContext<ActorContextType | undefined>(undefined);
